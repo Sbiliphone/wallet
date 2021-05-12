@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="wallet.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+	
+		<div class="newItem">
+			<input id="newDate" type="date" placeholder="gg/mm/aaaa">
+			<input id="newCause" type="text" placeholder="motivo">
+			<input id="newValue" type="number" placeholder="0.0">
+			
+			<button type="button" onclick="addNewItem()">+</button>
+		</div>
+		
+		
+		<div class="amount">
+			<div class="amountText">
+				SALDO <span id="amountValue" class="positive">00.00</span>
+			</div>
+		</div>
+		
+		
+		<div id="tableMovement" class="tableMovement">
+			<div class="tableHeader">
+				<div class="headerDate">Data</div>
+				<div class="headerCause">Motivo</div>
+				<div class="headerValue">Importo</div>
+			</div>
+		</div>
+
+		<button type="button" onclick="save()">Salva</button>
+		<p id="debug"></p>
+	
+		<script src="globals.js"></script>
+		<script src="wallet.js"></script>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+.positive{
+    color: green;
+}
+
+.negative{
+    color: red;
+}
+
+.outcome{
+    background-color: indianred;
+}
+
+.income{
+    background-color: lightgreen;
+}
+
+.newItem{
+    border: 1px solid black;
+    width: 25%;
+}
+
+.ammount{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.headerDate{
+    float: left;
+    display: inline-block;
+}
+
+.headerCause{
+    float: inherit;
+    display: inline-block;
+}
+
+.headerValue{
+    float: right;
+    display: inline-block;
+}
+
+.rowValue{
+    float: right;
+    display: inline-block;
+}
+
+.rowCause{
+    float: inherit;
+    display: inline-block;
+}
+
+.rowDate{
+    float: left;
+    display: inline-block;
+}
